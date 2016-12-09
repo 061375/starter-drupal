@@ -11,4 +11,22 @@
 /* Templates */
 @import "default";
 @import "home";
-@import "error404";  
+@import "error404";
+
+/* Main Wrapper */
+// basic global styles should be here
+
+.layout-container {
+    width: 80vw;
+    margin: auto;
+}
+.layout-content {
+    & > div {
+        width: 60%;
+        float: left;
+    }
+    & > aside {
+        width: 35%;
+        float: left;
+    }
+}
