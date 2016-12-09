@@ -1,0 +1,17 @@
+#block-starter-main-menu {
+    position: absolute;
+    right: 0;
+    display: none;
+}
+.hamburger {
+    width: 30px;
+    background: #000;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    padding: 5px;
+    img {
+        width: 100%;
+    }
+}
