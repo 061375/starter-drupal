@@ -1,0 +1,9 @@
+name: starter
+description: Starter theme
+type: theme
+core: 8.x
+libraries:
+    - starter/global-css
+    - starter/global-js
+stylesheets-remove:
+    - core/themes/stable/css/views/views.module.css

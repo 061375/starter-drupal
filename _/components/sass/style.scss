@@ -1,0 +1,14 @@
+//
+@import "mixins";
+@import "reset";
+@import "classes";
+
+/* General */
+@import "nav";
+@import "header";
+@import "footer";
+
+/* Templates */
+@import "default";
+@import "home";
+@import "error404";  

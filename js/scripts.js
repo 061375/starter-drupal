@@ -1,0 +1,1 @@
+var show_log=!0;!function(a){a.logThis=function(a){show_log&&void 0!==window.console&&console.log(a)}}(jQuery),$(document).ready(function(){$.logThis("The javascript loaded correctly")});
